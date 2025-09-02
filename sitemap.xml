@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ safetech.eng.br }}/</loc></url>
+  <url><loc>{{ safetech.eng.br }}/servicos.html</loc></url>
+  <url><loc>{{ safetech.eng.br }}/sobre.html</loc></url>
+  <url><loc>{{ safetech.eng.br }}/contato.html</loc></url>
+  <url><loc>{{ safetech.eng.br }}/blog.html</loc></url>
+  <url><loc>{{ safetech.eng.br }}/politica-de-privacidade.html</loc></url>
+  <url><loc>{{ safetech.eng.br }}/obrigado.html</loc></url>
+</urlset>
