@@ -75,31 +75,67 @@
 
 
   <main id="conteudo" tabindex="-1">
-    <section class="hero">
-  <div class="container">
-    <h1>Disponibilidade segura nas áreas críticas, com custo sob controle.</h1>
-    <p class="sub">
-      Dois programas especialistas: <strong>Conformidade Clínica</strong> (água, ultrassônicas, laudos)
-      e <strong>Eficiência Energética</strong> (mapa de desperdícios, plano 30‑60‑90).
-    </p>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <h1 id="hero-title">
+          Disponibilidade segura nas áreas críticas do hospital,
+          <span class="sr-only">com custo sob controle.</span>
+          <span class="rotator" aria-hidden="true"
+            data-phrases='[
+              "com custo sob controle",
+              "com água aprovada e RDC 15 em dia",
+              "com menos downtime e desperdício"
+            ]'></span>.
+        </h1>
 
-    <ul class="proofs" aria-label="Provas">
-      <li><strong>[CONFORMIDADE]</strong> 98% de aprovação em coletas de água</li>
-      <li><strong>[EFICIÊNCIA]</strong> R$ 1.000.000 economizados em 2 anos</li>
-      <li><strong>[CONFORMIDADE]</strong> 0 equipamento parado &gt; 24h</li>
-    </ul>
+        <p class="sub">
+          Dois programas especialistas: <strong>Conformidade Clínica</strong> (água, ultrassônicas, laudos)
+          e <strong>Eficiência Energética</strong> (mapa de desperdícios, plano 30‑60‑90).
+          Enquanto a equipe clínica cuida do paciente, nós cuidamos da engenharia — <em>para você voar sem dor e sem retrabalho</em>.
+        </p>
 
-    <div class="cta" style="display:flex;gap:.75rem;flex-wrap:wrap">
-      <a class="btn btn-primary" href="servicos.html#conformidade">Quero Conformidade</a>
-      <a class="btn btn-secondary" href="servicos.html#eficiencia">Quero Eficiência</a>
-      <a class="btn btn-link" href="https://wa.me/SEU_NUMERO?text=Ol%C3%A1!%20Podemos%20falar%3F" target="_blank" rel="noopener">WhatsApp</a>
-    </div>
+        <p class="cred-line">
+          Conduzido por <strong>Especialista em Engenharia Clínica (Einstein)</strong> — foco em hospitais de média e alta complexidade.
+        </p>
 
-    <p class="microcopy" style="margin-top:.5rem">Conduzido por <strong>Especialista em Engenharia Clínica (Einstein)</strong>.</p>
-  </div>
-</section>
+        <ul class="proofs" aria-label="Provas">
+          <li><strong>[CONFORMIDADE]</strong> 98% de aprovação em coletas de água</li>
+          <li><strong>[EFICIÊNCIA]</strong> R$ 1.000.000 economizados em 2 anos</li>
+          <li><strong>[CONFORMIDADE]</strong> 0 equipamento parado &gt; 24h (parceria ultrassônica)</li>
+        </ul>
+
+        <div class="cta">
+          <a class="btn btn-primary"
+          href="servicos.html#conformidade"
+          aria-label="Quero Conformidade: água e RDC 15">Quero Conformidade</a>
+
+          <a class="btn btn-secondary"
+          href="servicos.html#eficiencia"
+          aria-label="Quero Eficiência Energética">Quero Eficiência</a>
+
+          <a class="btn btn-link"
+          href="https://wa.me/5527997297520?text=Ol%C3%A1!%20Quero%20um%20diagn%C3%B3stico%20r%C3%A1pido."
+          target="_blank" rel="noopener">WhatsApp</a>
+        </div>
 
 
+        <div class="hero-cards" aria-label="Escolha seu objetivo">
+          <article class="card">
+            <h2>Programa Conformidade Clínica</h2>
+            <p>Compliance que aprova auditorias e evita downtime: água (hemodiálise), ultrassônicas (RDC 15), laudos claros.</p>
+            <a class="btn btn-card" href="servicos.html#conformidade">Ver entregáveis</a>
+          </article>
+
+          <article class="card">
+            <h2>Programa Eficiência Energética</h2>
+            <p>OPEX previsível e desperdício sob controle: linha de base, mapa de desperdícios e plano 30‑60‑90.</p>
+            <a class="btn btn-card" href="servicos.html#eficiencia">Ver entregáveis</a>
+          </article>
+        </div>
+
+        <small class="microcopy">Enquanto a equipe clínica cuida do paciente, nós cuidamos da disponibilidade e do custo. 😉</small>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer" role="contentinfo">
