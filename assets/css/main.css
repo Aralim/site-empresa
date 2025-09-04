@@ -42,6 +42,10 @@
     --shadow: 0 10px 25px rgba(0,0,0,.3);
   }
 }
+.brand { display:flex; align-items:center; gap:.5rem; }
+.brand img { display:block; height: 42px; width: auto; }   /* ajuste a altura a seu gosto */
+@media (min-width: 860px){ .brand img { height: 48px; } }  /* um pouquinho maior no desktop */
+
 
 /* Reseta base sutil */
 html { font-family: var(--ff-sans); color: var(--ink); background: var(--bg); }

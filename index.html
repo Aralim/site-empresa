@@ -19,6 +19,22 @@
 
   <!-- Seu CSS principal (deixe DEPOIS das fontes) -->
   <link rel="stylesheet" href="assets/css/main.css">
+  <script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Organization",
+  "name":"Safetech",
+  "url":"{{ BASE_URL }}",
+  "logo":"{{ BASE_URL }}/assets/img/logo-safetech.svg",
+  "founder":{
+    "@type":"Person",
+    "name":"<SEU_NOME>",
+    "jobTitle":"Especialista em Engenharia Clínica",
+    "alumniOf":{"@type":"CollegeOrUniversity","name":"Instituto Israelita de Ensino e Pesquisa Albert Einstein"}
+  }
+}
+</script>
+
 </head>
 
 <a class="whatsapp-float" aria-label="Falar no WhatsApp"
@@ -42,9 +58,17 @@
 
   <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html"><span aria-hidden="true">◆</span> <strong>Safetech - Engenharia Clínica</strong></a>
+    <a class="brand" href="index.html" aria-label="Safetech — Engenharia Clínica">
+      <picture>
+        <source srcset="assets/img/logo-safetech.svg" type="image/svg+xml">
+        <img src="assets/img/logo-safetech.png"
+             alt="Safetech — Engenharia Clínica"
+             decoding="async" fetchpriority="high">
+      </picture>
+    </a>
+
     <nav class="nav" aria-label="Principal">
-      <a href="index.html" aria-current="page">Início</a>
+      <a href="index.html">Início</a>
       <a href="servicos.html">Serviços</a>
       <a href="resultados.html">Resultados</a>
       <a href="sobre.html">Sobre</a>
@@ -52,6 +76,7 @@
     </nav>
   </div>
 </header>
+
 
 
   <main id="conteudo" tabindex="-1">
